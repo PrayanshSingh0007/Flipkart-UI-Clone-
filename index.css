@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.dropbtn{
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+button{
+    background-color: white;
+    border: 0.5px solid white;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: white ;
+}
+.dropdown-content button{
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white ;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+align-items: center;
+}
+
+#Search_Bar{
+    width: 700px;
+    border: 2px solid black;
+    height: 50px;
+    margin-right: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 40px;
+}
+
+#Logo{
+    height: 80px;
+}
+
+#Search{
+    width: 40px;
+    height: 30px;
+}
+
+#user{
+    width: 40px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+#cart{
+    width: 40px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+#store{
+    width: 40px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+#Grocery{
+    margin-left: 100px; 
+    width: 140px;
+    height: 140px;
+   
+}
+
+#Mobiles{
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+  
+#Fashion{
+    width: 140px;
+    margin-left: 10px;
+}
+
+#Electronics{
+    width: 140px;
+    margin-left: 10px;
+}
+
+#Home-and-Furniture{
+    width: 180px;
+    margin-left: 10px;
+}
+
+#Appliances{
+    width: 180px;
+    margin-left: 10px;
+}
+
+#Travel{
+    width: 120px;
+    margin-left: 10px;
+}
+
+#Toys_Games{
+    width: 140px;
+    margin-left: 10px;
+}
+
+#TwoWheeler{
+    width: 160px;
+    margin-left: 30px;
+}
+
+.items{
+    font-weight: 700;
+   width: 140px;
+   border: 1px solid white;
+}
+
+#Home{
+    
+  font-weight: 700;
+    border:1px solid white;
+    width: 200px;
+}
+
+#mobiles{
+    margin-left: 30px;
+}
+
+#items{
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+#travel{
+    margin-left: 50px;
+
+}
+
+#TwoWheeLer{
+    margin-left: 30px;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+#banner{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1700px;
+}
+
+.ITEMS{
+    width: 220px;
+    margin-left: 40px;
+}
+
+#Watch{
+    margin-left: 10px;
+}
+
+.TEXT{
+  font-weight: 700;
+   border: 1px solid white;
+}
+
+#Fast{
+    margin-left: 30px;
+}
+
+.Price{
+  font-weight: 900;
+   size: 9;
+   border: 1px solid white;
+   margin-left: 17px;
+
+}
+
+#Price{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+   size: 10;
+   border: 1px solid white;
+   margin-left: 40px;
+}
+
+#NOISE{
+    margin-left: 40px;
+}
+
+#Print{
+ margin-left: 110px;
+}
+
+#Projecters{
+  margin-left: 50px;
+}
+
+#PRI{
+    margin-left: 50px;
+}
+
+#PC{
+    margin-right: 20px;
+}
+
+#Asus{
+    margin-right: 30px;
+}
+
+.ITEMS:hover{
+    transform: scale(1.1);
+}
+
+form{
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Fast{
+    margin-left: 90px;
+}
+
+#Pro{
+    margin-left: 50px;
+}
